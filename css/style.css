@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: url('AntipastoPro.woff2') format('woff2'),
+        url('AntipastoPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('CaviarDreams-Bold.woff2') format('woff2'),
+        url('CaviarDreams-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.logo{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.logo:hover{
+    transition: 0.2s;
+    color:rgb(136, 5, 70);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(214, 0, 135);
+    font-family: 'Antipasto Pro', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header a:hover {
+    transition: 0.3s;
+    background-color: rgb(255, 0, 255);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(25, 25, 25);
+    padding: 30px 0 0;
+}
+
+.footer-content {
+    flex: 1;
+}
+
+.footer-copyright {
+    margin: 0;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
