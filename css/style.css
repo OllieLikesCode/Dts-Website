@@ -55,7 +55,7 @@ body {
 /* Logo Hover Effect */
 .logo:hover {
     transition: 0.2s;
-    color: rgb(136, 5, 70);
+    color: rgb(233, 11, 122);
 }
 
 /* Header Styling */
@@ -77,8 +77,8 @@ body {
     font-family: 'Antipasto Pro', sans-serif;
     font-size: 20px;
     padding: 10px;
-    width: 120px;
-    height: auto;
+    width: 150px;
+    height: 20px;
     text-align: center;
     border-radius: 6px;
 }
@@ -104,7 +104,7 @@ footer {
     background: rgb(25, 25, 25);
     padding: 0;
     margin: 0;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer-content {
@@ -113,7 +113,7 @@ footer {
     align-items: flex-start;
     width: min(1200px, calc(100% - 48px));
     min-height: 180px;
-    padding: 24px 0 18px;
+    padding: 34px 0px 0px 0px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -157,8 +157,7 @@ footer h3 {
 
 /* Footer Company Info Paragraph Styling */
 .footer-about p {
-    width: 100%;
-    max-width: 560px;
+    width: 550px;
     line-height: 22px;
     padding: 0;
     margin: 0;
@@ -186,6 +185,11 @@ footer h3 {
 
 }
 
+.footer-links a:hover{
+    color:rgb(255, 74, 165);
+}
+
+
 /* Footer Contact Styling */
 .footer-contact {
     display: flex;
@@ -203,6 +207,10 @@ footer h3 {
     font-family: 'Lato', sans-serif;
 }
 
+.footer-contact a:hover{
+    color:rgb(255, 74, 165);
+}
+
 /* Footer Contact Paragraph Styling */
 .footer-contact p {
     margin: 0;
@@ -213,6 +221,27 @@ footer h3 {
 #address-text {
     color: rgb(240, 17, 158);
 }
+
+/* Footer Content Styling */
+.footer-socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    padding: 15px;
+}
+
+.footer-socials a{
+    color: white;
+    font-size: 30px;
+}
+
+.footer-socials a:hover{
+    color:rgb(240, 17, 158);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 /* Footer Copyright Styling */
 .footer-copyright {

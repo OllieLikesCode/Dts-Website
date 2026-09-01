@@ -1,0 +1,15 @@
+.hero-image{
+    margin-top: 15px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    object-fit: cover;
+    height: 270px;
+    width: 1000px;
+    border: 3px double rgb(136, 5, 70);
+    border-radius: 10px;
+    image-rendering: optimizeQuality;
+}
