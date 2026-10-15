@@ -1,8 +1,8 @@
 /* Custom Font Face for Antipasto Pro */
 @font-face {
     font-family: 'Antipasto Pro';
-    src: url('AntipastoPro.woff2') format('woff2'),
-        url('AntipastoPro.woff') format('woff');
+    src: url('../fonts/AntipastoPro.woff2') format('woff2'),
+        url('../fonts/AntipastoPro.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,8 +11,8 @@
 /* Custom Font Face for Caviar Dreams */
 @font-face {
     font-family: 'Caviar Dreams';
-    src: url('CaviarDreams-Bold.woff2') format('woff2'),
-        url('CaviarDreams-Bold.woff') format('woff');
+    src: url('../fonts/CaviarDreams-Bold.woff2') format('woff2'),
+        url('../fonts/CaviarDreams-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -21,8 +21,8 @@
 /* Custom Font Face for Google Font Lato */
 @font-face {
     font-family: 'Lato';
-    src: url('Lato-Regular.woff2') format('woff2'),
-        url('Lato-Regular.woff') format('woff');
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -78,7 +78,7 @@ body {
     text-decoration: none;
     color: white;
     background-color: rgb(214, 0, 135);
-    font-family: 'Antipasto Pro', sans-serif;
+    font-family: 'Caviar Dreams', sans-serif;
     font-size: 20px;
     padding: 10px;
     width: 150px;
@@ -134,7 +134,7 @@ footer {
 footer p {
     color: rgb(238, 237, 237);
     text-decoration: none;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Footer Titles Styling */
@@ -144,6 +144,7 @@ footer h3 {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Footer Company Info Styling */
@@ -161,6 +162,7 @@ footer h3 {
     line-height: 22px;
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Footer Links Styling */
