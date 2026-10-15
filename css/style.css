@@ -95,11 +95,6 @@ body {
     text-decoration-thickness: 1px;
 }
 
-/* Main Content Styling */
-main {
-    min-height: 84vh;
-}
-
 /* Footer Styling */
 footer {
     width: 100%;
@@ -212,6 +207,7 @@ footer h3 {
     font-family: 'Lato', sans-serif;
 }
 
+/* Footer Contact Hyperlink Hover Effect */
 .footer-contact a:hover{
     color:rgb(255, 74, 165);
 }
@@ -236,11 +232,13 @@ footer h3 {
     padding: 15px;
 }
 
+/* Socials button Styling*/
 .footer-socials a{
     color: white;
     font-size: 30px;
 }
 
+/* Social hover effect Styling */
 .footer-socials a:hover{
     color:rgb(240, 17, 158);
     cursor: pointer;
@@ -260,4 +258,8 @@ footer h3 {
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
+}
+
+main{
+    min-height: 834px;
 }

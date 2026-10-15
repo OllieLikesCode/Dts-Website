@@ -1,49 +1,58 @@
+/* Main banner styling */
 .hero-image {
     margin-top: 20px;
-    width: 100vw;
     display: flex;
     justify-content: center;
 }
 
+/* Hero Image Content Styling */
 .hero-image img {
     object-fit: cover;
-    height: 230px;
-    width: 1000px;
+    height: 350px;
+    width: 1400px;
     border: 3px double rgb(136, 5, 70);
     border-radius: 10px;
     image-rendering: optimizeQuality;
 }
 
+/* Main Container Styling */
 .main-container {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
-    height: 200px;
     justify-content: center;
+    gap: 50px;
 }
 
+/* About us text Styling*/
 .main-text {
     display: flex;
+    flex: 1;
+    max-width: 500px;
     align-items: center;
     flex-direction: column;
-    height: 200px;
 }
 
+/* Secondary Image Styling */
 .main-container img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin-left: 20px;
     border-radius: 3px;
 }
 
+/* About us heading Styling*/
 .main-text h2{
     margin: 0px;
     margin-bottom: 10px;
     padding: 0px;
+    font-size: 30px;
 }
 
+/* About us body text Styling*/
 .main-text p {
     padding: 0px;
     margin: 0px;
     font-family: 'Lato' sans-serif;
     width: 500px;
+    font-size: 21px;
 }
