@@ -9,7 +9,8 @@
 .hero-image img {
     object-fit: cover;
     height: 350px;
-    width: 1400px;
+    width: 90%;
+    max-width: 1400px;
     border: 3px double rgb(136, 5, 70);
     border-radius: 10px;
     image-rendering: optimizeQuality;
@@ -18,8 +19,10 @@
 /* Main Container Styling */
 .main-container {
     margin-top: 50px;
+    padding: 0 1.5rem 50px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
@@ -35,8 +38,11 @@
 
 /* Secondary Image Styling */
 .main-container img {
-    height: 300px;
-    width: 300px;
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     margin-left: 20px;
     border-radius: 3px;
 }
@@ -46,7 +52,7 @@
     margin: 0px;
     margin-bottom: 10px;
     padding: 0px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Lato', sans-serif;
 }
 
@@ -55,6 +61,54 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Lato', sans-serif;
-    width: 500px;
-    font-size: 21px;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+
+/* ---------- Tablet portrait / large phone ---------- */
+@media (max-width: 768px) {
+    .hero-image img {
+        height: 250px;
+    }
+
+    /* Text above image */
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .main-text {
+        flex: none;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .main-container img {
+        width: 80%;
+        max-width: 400px;
+        margin-left: 0;
+    }
+
+    .main-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .main-text p {
+        font-size: 1.13rem;
+    }
+}
+
+
+/* ---------- Phone ---------- */
+@media (max-width: 480px) {
+    .hero-image img {
+        height: 180px;
+    }
+
+    .main-text p {
+        font-size: 1rem;
+    }
 }
