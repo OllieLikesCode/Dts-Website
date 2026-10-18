@@ -192,13 +192,13 @@ footer h3 {
 .footer-links a {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    color: rgb(240, 17, 158);
+    color: rgb(177, 7, 115);
     font-family: 'Lato', sans-serif;
     font-size: 1.06rem;
 }
 
 .footer-links a:hover{
-    color:rgb(255, 74, 165);
+    color:rgb(255, 128, 191);
 }
 
 
@@ -215,7 +215,7 @@ footer h3 {
 /* Footer Contact Hyperlink Styling */
 .footer-contact a {
     text-decoration: underline;
-    color: rgb(240, 17, 158);
+    color: rgb(177, 7, 115);
     font-family: 'Lato', sans-serif;
 }
 
@@ -232,7 +232,13 @@ footer h3 {
 
 /* Address Styling */
 #address-text {
-    color: rgb(240, 17, 158);
+    color: rgb(177, 7, 115);
+}
+
+#address-text:hover {
+    color:rgb(255, 74, 165);
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* Footer Content Styling */
